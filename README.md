@@ -42,3 +42,7 @@ The figure given below compares the performance of different cases. MDP case is 
 * [Deep Recurrent Q Learning for POMDPs](https://arxiv.org/pdf/1507.06527.pdf)
 * [Recurrent Neural Networks for Reinforcement Learning: an Investigation of Relevant Design Choices](https://esc.fnwi.uva.nl/thesis/centraal/files/f499544468.pdf)
 * [Grid World POMDP Environment](https://github.com/awjuliani/DeepRL-Agents)
+
+# Requirements
+* Python >= 3.5
+* PyTorch >= 0.4.1
