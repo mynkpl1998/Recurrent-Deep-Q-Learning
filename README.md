@@ -16,7 +16,7 @@ Underlying MDP             |  Observation to Agent
 
 # Algorithm
 
-![](https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/algo.png)
+<p align="center"> <img src="https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/algo.png"/> </p>
 
 # How to Run ?
 
@@ -31,3 +31,14 @@ I ran the experiment for the following cases. The corresponding code/jupyter fil
 Fully Observable            |  Single Observation          | LSTM 
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/GIFs/MDP_SIZE_9.gif)  |  ![](https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/GIFs/SINGLE_OBSERV_9.gif) | ![](https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/GIFs/LSTM_SIZE_9.gif)
+
+# Results
+
+The figure given below compares the performance of different cases. MDP case is the best we can do as the underlying state is fully visible to the agent. However, the challenge is to perform better given an observation. The graph clearly shows the LSTM consistently performed better as the total reward per episode was much higher than using some last k-frames.
+
+<p align="center"> <img src="https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/GIFs/perf.png"/> </p>
+
+# References
+* [Deep Recurrent Q Learning for POMDPs](https://arxiv.org/pdf/1507.06527.pdf)
+* [Recurrent Neural Networks for Reinforcement Learning: an Investigation of Relevant Design Choices](https://esc.fnwi.uva.nl/thesis/centraal/files/f499544468.pdf)
+* [Grid World POMDP Environment](https://github.com/awjuliani/DeepRL-Agents)
