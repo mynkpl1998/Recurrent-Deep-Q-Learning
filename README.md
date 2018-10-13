@@ -8,7 +8,7 @@ algorithm to which can be seen as 4th order markov decision process. Many papers
 # Environment
 
 Environment used was a 9x9 grid where *Red* colored blocks represents agent location in the grid. *Green* colored blocks are the goal points for agent. *Blue* colored blocks are the blocks which agent needs to avoid. A reward of +1 is given to agent when it eats *green* block. A reward of -1 is given to the agent when it eats *blue* block. Other movements results in zero.
-Observation is the neigbouring cells of agent. Below figure describes the observation.
+Observation is the RGB image of neigbouring cells of agent. Below figure describes the observation.
 
 Underlying MDP             |  Observation to Agent          
 :-------------------------:|:-------------------------:
@@ -17,3 +17,11 @@ Underlying MDP             |  Observation to Agent
 # Algorithm
 
 ![](https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/algo.png)
+
+# How to Run ?
+
+I ran the experiment for the following cases. The corresponding code/jupyter files are linked to each experiment.
+* [MDP Case](https://github.com/mynkpl1998/Recurrent-Deep-Q-Learning/blob/master/MDP_Size_9.ipynb) - The underlying state was fully visible. The whole grid was given as the input to the agent.
+* [Single Observation](https://github.com/mynkpl1998/Recurrent-Deep-Q-Learning/blob/master/Single%20Observation.ipynb) - In this case, the most recent observation was used as the input to agent.
+* [Last Two Observations](https://github.com/mynkpl1998/Recurrent-Deep-Q-Learning/blob/master/Two%20Observations.ipynb) - In this case, the last two most recent observation was used as the input to agent to encode the temporal information among observations.
+* [LSTM Case](https://github.com/mynkpl1998/Recurrent-Deep-Q-Learning/blob/master/LSTM%2C%20BPTT%3D8.ipynb) - In this case, an LSTM layer is used to pass the temporal information among observations.
