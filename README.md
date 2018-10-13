@@ -25,3 +25,9 @@ I ran the experiment for the following cases. The corresponding code/jupyter fil
 * [Single Observation](https://github.com/mynkpl1998/Recurrent-Deep-Q-Learning/blob/master/Single%20Observation.ipynb) - In this case, the most recent observation was used as the input to agent.
 * [Last Two Observations](https://github.com/mynkpl1998/Recurrent-Deep-Q-Learning/blob/master/Two%20Observations.ipynb) - In this case, the last two most recent observation was used as the input to agent to encode the temporal information among observations.
 * [LSTM Case](https://github.com/mynkpl1998/Recurrent-Deep-Q-Learning/blob/master/LSTM%2C%20BPTT%3D8.ipynb) - In this case, an LSTM layer is used to pass the temporal information among observations.
+
+# Learned Policies
+
+Fully Observable            |  Single Observation          | LSTM 
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/GIFs/MDP_SIZE_9.gif)  |  ![](https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/GIFs/SINGLE_OBSERV_9.gif) | ![](https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/GIFs/LSTM_SIZE_9.gif)
