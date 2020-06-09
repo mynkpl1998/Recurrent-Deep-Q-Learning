@@ -30,7 +30,7 @@ I ran the experiment for the following cases. The corresponding code/jupyter fil
 
 Fully Observable            |  Single Observation          | LSTM 
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/GIFs/MDP_SIZE_9.gif)  |  ![](https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/GIFs/SINGLE_OBSERV_9.gif) | ![](https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/GIFs/LSTM_SIZE_9.gif)
+![](https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/GIFs/MDP_SIZE_9.gif)  |  ![](https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/GIFs/SINGLE_SIZE_9_frames.gif) | ![](https://raw.githubusercontent.com/mynkpl1998/Recurrent-Deep-Q-Learning/master/data/GIFs/LSTM_SIZE_9_frames.gif)
 
 # Results
 
